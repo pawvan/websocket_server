@@ -1,0 +1,10 @@
+[package]
+name = "websocket_server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }  # Asynchronous runtime
+tungstenite = "0.20"                            # WebSocket library
+tokio-tungstenite = "0.20"                      # Integration with tokio
+futures-util = "0.3"                            # Utilities for working with futures
